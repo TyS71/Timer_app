@@ -1,0 +1,82 @@
+.timer{
+  border: solid rgba(49, 49, 49, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 5px;
+  padding: 20px;
+  transition: all 300ms; 
+}
+.timer button{
+  width: 100%;
+  outline: none;
+  font-size: 30px;
+}
+.start{
+  color: rgb(7, 214, 35);
+  border: solid;
+}
+.stop{
+  color: rgb(235, 2, 2);
+  border: solid;
+  display: none;
+}
+.timer h1{
+  align-self: flex-start;
+  border-bottom: solid;
+  width: 80%;
+}
+.timer h2{
+  font-size: 50px;
+}
+
+.project{
+  color: rgba(49, 49, 49, 0.3);
+  align-self: flex-start;
+  margin-top: -15px;
+}
+
+.start:hover{
+  color:white;
+  background-color: rgb(7, 214, 35);
+  border: solid rgb(7, 214, 35);
+  cursor: pointer
+}
+.stop:hover{
+  color: white;
+  background-color: rgb(235, 2, 2);
+  border: solid rgb(235, 2, 2);
+  display: none;
+  cursor:pointer;
+}
+.edit{
+  opacity: .5;
+  cursor: pointer;
+  color: rgb(245, 170, 31);
+  float: left;
+  transition: all 300ms;
+}
+.delete{
+  opacity: .5;
+  cursor: pointer;
+  color: red;
+  float: right;
+  margin-left: 10px;
+  transition: all 300ms;
+}
+.icon-div{
+  margin-left: auto;
+  font-size: 25px;
+}
+.edit:hover{
+  opacity: 1
+}
+.delete:hover{
+  opacity: 1
+}
+@media screen and (max-width: 700px){
+  .timer{
+    width: 100%;
+  }
+}

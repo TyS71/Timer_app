@@ -1,0 +1,10 @@
+.dashboard{ 
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.icon-div{
+  height: 10px;
+}
